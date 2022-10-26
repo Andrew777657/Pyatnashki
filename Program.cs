@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Pyatnaski
 {
-    internal class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        static void Main(this string[] args)
         {
             PyatnaskiMain pyatnaski = new PyatnaskiMain();
             pyatnaski.Start();
